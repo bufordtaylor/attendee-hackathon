@@ -2,7 +2,7 @@
 //  Order.m
 //  MyEvents
 //
-//  Created by Kiel Oleson on 2011-01-03.
+//  Created by Kiel Oleson on 2011-01-19.
 //  Copyright (c) 2011 Eventbrite. All rights reserved.
 //
 
@@ -12,9 +12,10 @@
 @implementation Order
 @dynamic id;
 @dynamic startDate;
-@dynamic eventName;
 @dynamic venueName;
+@dynamic eventName;
 @dynamic attendee;
+@dynamic referencingState;
 @dynamic tickets;
 
 #if 0
@@ -68,27 +69,6 @@
     return YES;
 }
 
-- (NSString *)eventName {
-    NSString * tmpValue;
-    
-    [self willAccessValueForKey:@"eventName"];
-    tmpValue = [self primitiveEventName];
-    [self didAccessValueForKey:@"eventName"];
-    
-    return tmpValue;
-}
-
-- (void)setEventName:(NSString *)value {
-    [self willChangeValueForKey:@"eventName"];
-    [self setPrimitiveEventName:value];
-    [self didChangeValueForKey:@"eventName"];
-}
-
-- (BOOL)validateEventName:(id *)valueRef error:(NSError **)outError {
-    // Insert custom validation logic here.
-    return YES;
-}
-
 - (NSString *)venueName {
     NSString * tmpValue;
     
@@ -110,6 +90,27 @@
     return YES;
 }
 
+- (NSString *)eventName {
+    NSString * tmpValue;
+    
+    [self willAccessValueForKey:@"eventName"];
+    tmpValue = [self primitiveEventName];
+    [self didAccessValueForKey:@"eventName"];
+    
+    return tmpValue;
+}
+
+- (void)setEventName:(NSString *)value {
+    [self willChangeValueForKey:@"eventName"];
+    [self setPrimitiveEventName:value];
+    [self didChangeValueForKey:@"eventName"];
+}
+
+- (BOOL)validateEventName:(id *)valueRef error:(NSError **)outError {
+    // Insert custom validation logic here.
+    return YES;
+}
+
 - (Attendee *)attendee {
     id tmpObject;
     
@@ -127,6 +128,28 @@
 }
 
 - (BOOL)validateAttendee:(id *)valueRef error:(NSError **)outError {
+    // Insert custom validation logic here.
+    return YES;
+}
+
+
+- (State *)referencingState {
+    id tmpObject;
+    
+    [self willAccessValueForKey:@"referencingState"];
+    tmpObject = [self primitiveReferencingState];
+    [self didAccessValueForKey:@"referencingState"];
+    
+    return tmpObject;
+}
+
+- (void)setReferencingState:(State *)value {
+    [self willChangeValueForKey:@"referencingState"];
+    [self setPrimitiveReferencingState:value];
+    [self didChangeValueForKey:@"referencingState"];
+}
+
+- (BOOL)validateReferencingState:(id *)valueRef error:(NSError **)outError {
     // Insert custom validation logic here.
     return YES;
 }

@@ -38,8 +38,6 @@
 /* Begin PBXFileReference section */
 		9B6A847B12C542EA002A63AB /* MyEventsXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEventsXMLParser.h; sourceTree = "<group>"; };
 		9B6A847C12C542EA002A63AB /* MyEventsXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEventsXMLParser.m; sourceTree = "<group>"; };
-		9B6A848012C544EF002A63AB /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = State.h; path = Classes/State.h; sourceTree = "<group>"; };
-		9B6A848112C544EF002A63AB /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = State.m; path = Classes/State.m; sourceTree = "<group>"; };
 		9B6A848212C544F0002A63AB /* Ticket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = Classes/Ticket.h; sourceTree = "<group>"; };
 		9B6A848312C544F0002A63AB /* Ticket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Ticket.m; path = Classes/Ticket.m; sourceTree = "<group>"; };
 		9B6A848412C544F0002A63AB /* Attendee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Attendee.h; path = Classes/Attendee.h; sourceTree = "<group>"; };
@@ -47,8 +45,6 @@
 		9B6A848812C546BD002A63AB /* localtestdata.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = localtestdata.xml; path = Tests/localtestdata.xml; sourceTree = "<group>"; };
 		9B72288A12A1F118004488C0 /* evblogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evblogo.png; sourceTree = "<group>"; };
 		9B72288D12A1F5D5004488C0 /* tixbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tixbg.png; sourceTree = "<group>"; };
-		9B8069E812D250B700550C4B /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Order.h; path = Classes/Order.h; sourceTree = "<group>"; };
-		9B8069E912D250B700550C4B /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = Classes/Order.m; sourceTree = "<group>"; };
 		9B81C27312A1ECED00BB749D /* MyEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81C27612A1ECED00BB749D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B81C27812A1ECED00BB749D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +73,10 @@
 		9B81C2B612A1EDAC00BB749D /* 4921052592001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4921052592001.png; sourceTree = "<group>"; };
 		9BF24D5112A1FBC600374EB2 /* EventListingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListingTableViewController.h; sourceTree = "<group>"; };
 		9BF24D5212A1FBC600374EB2 /* EventListingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListingTableViewController.m; sourceTree = "<group>"; };
+		9BFFE4D112E780030015BE24 /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Order.h; path = Classes/Order.h; sourceTree = "<group>"; };
+		9BFFE4D212E780030015BE24 /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = Classes/Order.m; sourceTree = "<group>"; };
+		9BFFE4D512E7804A0015BE24 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = State.h; path = Classes/State.h; sourceTree = "<group>"; };
+		9BFFE4D612E7804A0015BE24 /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = State.m; path = Classes/State.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,14 +121,14 @@
 			isa = PBXGroup;
 			children = (
 				9B81C28812A1ECED00BB749D /* MyEvents.xcdatamodel */,
-				9B8069E812D250B700550C4B /* Order.h */,
-				9B8069E912D250B700550C4B /* Order.m */,
 				9B6A848412C544F0002A63AB /* Attendee.h */,
 				9B6A848512C544F0002A63AB /* Attendee.m */,
 				9B6A848212C544F0002A63AB /* Ticket.h */,
 				9B6A848312C544F0002A63AB /* Ticket.m */,
-				9B6A848012C544EF002A63AB /* State.h */,
-				9B6A848112C544EF002A63AB /* State.m */,
+				9BFFE4D112E780030015BE24 /* Order.h */,
+				9BFFE4D212E780030015BE24 /* Order.m */,
+				9BFFE4D512E7804A0015BE24 /* State.h */,
+				9BFFE4D612E7804A0015BE24 /* State.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";

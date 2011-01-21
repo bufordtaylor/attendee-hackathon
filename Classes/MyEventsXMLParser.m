@@ -42,7 +42,7 @@
 }
 
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
-    //NSLog(@"MyEventsXMLParser: parser:didStartElement: with name %@", elementName);
+    NSLog(@"MyEventsXMLParser: parser:didStartElement: with name %@", elementName);
     currentChars = nil;
     currentTag = elementName;
     ignoreOrder = NO;
@@ -127,8 +127,11 @@
                     ignoreOrder = YES;
                 }
             }
-            [context deleteObject:currentOrder];
-            currentOrder = nil;
+            
+            //[context deleteObject:currentOrder];
+            //currentOrder = nil;
+        }else if ([elementName isEqualToString:@"venueId"]) {
+            // do nothing.
         }
     }
     currentChars = nil;

@@ -179,6 +179,7 @@
     
     [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
     [tableView cellForRowAtIndexPath:indexPath].selected = NO;
+    [state setCurrentOrder:[orders objectAtIndex:[indexPath row]]];
     selectedIndex = [indexPath row];
 }
 
