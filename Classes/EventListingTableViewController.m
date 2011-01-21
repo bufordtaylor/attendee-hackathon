@@ -11,7 +11,7 @@
 
 @implementation EventListingTableViewController
 
-@synthesize managedObjectContext;
+@synthesize managedObjectContext, parentVC;
 
 #pragma mark -
 #pragma mark Initialization
@@ -32,13 +32,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Uncomment the following line to preserve selection between presentations.
+	// Uncomment the following line to preserve selection between presentations.
     self.clearsSelectionOnViewWillAppear = NO;
- 
+	
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
     
     state = ((MyEventsAppDelegate *)[[UIApplication sharedApplication] delegate]).state;
     
@@ -54,16 +52,16 @@
     
     [tempOrders release];
     
-    //fakeEventNames = [[NSArray alloc] initWithObjects:@"Nap Time", @"Great Concert", @"Important Conference", nil];
     selectedIndex = 0;
 }
 
 
-/*
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+	[self.tableView reloadData];
 }
-*/
+
 /*
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -179,8 +177,20 @@
     
     [tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryCheckmark;
     [tableView cellForRowAtIndexPath:indexPath].selected = NO;
-    [state setCurrentOrder:[orders objectAtIndex:[indexPath row]]];
+	NSLog(@"num of orders %d", [orders count]);
     selectedIndex = [indexPath row];
+	
+	TicketDetailViewController *controller = [[TicketDetailViewController alloc] initWithNibName:@"TicketDetailViewController" bundle:nil];
+//	controller.barcode = @"2338872730220599001";
+	controller.barcode = @"000";
+	Order* order = [orders objectAtIndex:[indexPath row]];
+	controller.order = order;
+	controller.attendee = state.currentAttendee;
+	[parentVC presentFinishedButton];
+
+	[self presentModalViewController:controller animated:YES];
+	
+	[controller release];
 }
 
 

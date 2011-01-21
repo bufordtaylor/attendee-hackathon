@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97C841BE12E96CAE00E00DF5 /* TicketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C841BC12E96CAE00E00DF5 /* TicketDetailViewController.m */; };
+		97C841BF12E96CAE00E00DF5 /* TicketDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C841BD12E96CAE00E00DF5 /* TicketDetailViewController.xib */; };
+		97C8427112E975D700E00DF5 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 97C8427012E975D700E00DF5 /* error.png */; };
+		97C8427412E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Dev.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C8427212E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Dev.2.0.a */; };
+		97C8427512E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Sim.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C8427312E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Sim.2.0.a */; };
+		97C8437D12E9977D00E00DF5 /* GenLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C8437C12E9977D00E00DF5 /* GenLib.m */; };
+		97C843B112E99DB000E00DF5 /* TextEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C843AF12E99DB000E00DF5 /* TextEditCell.m */; };
+		97C843B212E99DB000E00DF5 /* TextEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C843B012E99DB000E00DF5 /* TextEditCell.xib */; };
+		97C843BC12E99E1700E00DF5 /* IBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C843BB12E99E1700E00DF5 /* IBTableViewCell.m */; };
+		97C843E612E9A2CC00E00DF5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 97C843E512E9A2CC00E00DF5 /* Default.png */; };
+		97C8445712E9A96F00E00DF5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97C8445612E9A96F00E00DF5 /* icon.png */; };
 		9B6A847D12C542EA002A63AB /* MyEventsXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A847C12C542EA002A63AB /* MyEventsXMLParser.m */; };
 		9B6A847E12C542EA002A63AB /* MyEventsXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A847C12C542EA002A63AB /* MyEventsXMLParser.m */; };
 		9B6A848912C546BD002A63AB /* localtestdata.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A848812C546BD002A63AB /* localtestdata.xml */; };
@@ -36,6 +47,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97C841BB12E96CAE00E00DF5 /* TicketDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketDetailViewController.h; sourceTree = "<group>"; };
+		97C841BC12E96CAE00E00DF5 /* TicketDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketDetailViewController.m; sourceTree = "<group>"; };
+		97C841BD12E96CAE00E00DF5 /* TicketDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TicketDetailViewController.xib; path = Classes/TicketDetailViewController.xib; sourceTree = "<group>"; };
+		97C8427012E975D700E00DF5 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		97C8427212E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Dev.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSoftmaticiPhoneBarcode_Dev.2.0.a; sourceTree = "<group>"; };
+		97C8427312E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Sim.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSoftmaticiPhoneBarcode_Sim.2.0.a; sourceTree = "<group>"; };
+		97C8427912E9766600E00DF5 /* WSSI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSI.h; sourceTree = "<group>"; };
+		97C8437B12E9977D00E00DF5 /* GenLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenLib.h; sourceTree = "<group>"; };
+		97C8437C12E9977D00E00DF5 /* GenLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenLib.m; sourceTree = "<group>"; };
+		97C843AE12E99DB000E00DF5 /* TextEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditCell.h; sourceTree = "<group>"; };
+		97C843AF12E99DB000E00DF5 /* TextEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditCell.m; sourceTree = "<group>"; };
+		97C843B012E99DB000E00DF5 /* TextEditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextEditCell.xib; sourceTree = "<group>"; };
+		97C843BA12E99E1700E00DF5 /* IBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTableViewCell.h; sourceTree = "<group>"; };
+		97C843BB12E99E1700E00DF5 /* IBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTableViewCell.m; sourceTree = "<group>"; };
+		97C843E512E9A2CC00E00DF5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		97C8445612E9A96F00E00DF5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		9B6A847B12C542EA002A63AB /* MyEventsXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEventsXMLParser.h; sourceTree = "<group>"; };
 		9B6A847C12C542EA002A63AB /* MyEventsXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEventsXMLParser.m; sourceTree = "<group>"; };
 		9B6A848212C544F0002A63AB /* Ticket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ticket.h; path = Classes/Ticket.h; sourceTree = "<group>"; };
@@ -45,7 +72,7 @@
 		9B6A848812C546BD002A63AB /* localtestdata.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = localtestdata.xml; path = Tests/localtestdata.xml; sourceTree = "<group>"; };
 		9B72288A12A1F118004488C0 /* evblogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evblogo.png; sourceTree = "<group>"; };
 		9B72288D12A1F5D5004488C0 /* tixbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tixbg.png; sourceTree = "<group>"; };
-		9B81C27312A1ECED00BB749D /* MyEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B81C27312A1ECED00BB749D /* MyTickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81C27612A1ECED00BB749D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B81C27812A1ECED00BB749D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B81C27A12A1ECED00BB749D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +115,8 @@
 				9B81C27912A1ECED00BB749D /* Foundation.framework in Frameworks */,
 				9B81C27B12A1ECED00BB749D /* CoreGraphics.framework in Frameworks */,
 				9B81C27D12A1ECED00BB749D /* CoreData.framework in Frameworks */,
+				97C8427412E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Dev.2.0.a in Frameworks */,
+				97C8427512E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Sim.2.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +136,10 @@
 		9B81C26312A1ECED00BB749D = {
 			isa = PBXGroup;
 			children = (
+				97C8427912E9766600E00DF5 /* WSSI.h */,
+				97C8427012E975D700E00DF5 /* error.png */,
+				97C8427212E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Dev.2.0.a */,
+				97C8427312E975E900E00DF5 /* libSoftmaticiPhoneBarcode_Sim.2.0.a */,
 				9B81C26A12A1ECED00BB749D /* Models */,
 				9B81C26B12A1ECED00BB749D /* Classes */,
 				9B81C26C12A1ECED00BB749D /* Other Sources */,
@@ -138,6 +171,8 @@
 			children = (
 				9B81C28512A1ECED00BB749D /* MyEventsAppDelegate.h */,
 				9B81C28612A1ECED00BB749D /* MyEventsAppDelegate.m */,
+				97C841BB12E96CAE00E00DF5 /* TicketDetailViewController.h */,
+				97C841BC12E96CAE00E00DF5 /* TicketDetailViewController.m */,
 				9B81C28D12A1ECED00BB749D /* MainViewController.h */,
 				9B81C28E12A1ECED00BB749D /* MainViewController.m */,
 				9B81C29212A1ECED00BB749D /* FlipsideViewController.h */,
@@ -153,6 +188,13 @@
 		9B81C26C12A1ECED00BB749D /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				97C8437B12E9977D00E00DF5 /* GenLib.h */,
+				97C8437C12E9977D00E00DF5 /* GenLib.m */,
+				97C843AE12E99DB000E00DF5 /* TextEditCell.h */,
+				97C843AF12E99DB000E00DF5 /* TextEditCell.m */,
+				97C843B012E99DB000E00DF5 /* TextEditCell.xib */,
+				97C843BA12E99E1700E00DF5 /* IBTableViewCell.h */,
+				97C843BB12E99E1700E00DF5 /* IBTableViewCell.m */,
 				9B81C27F12A1ECED00BB749D /* MyEvents-Prefix.pch */,
 				9B81C28312A1ECED00BB749D /* MyEvents-main.m */,
 				9B81C2A212A1ECEE00BB749D /* MyEventsTests-Prefix.pch */,
@@ -164,6 +206,9 @@
 			isa = PBXGroup;
 			children = (
 				9B6A848812C546BD002A63AB /* localtestdata.xml */,
+				97C8445612E9A96F00E00DF5 /* icon.png */,
+				97C843E512E9A2CC00E00DF5 /* Default.png */,
+				97C841BD12E96CAE00E00DF5 /* TicketDetailViewController.xib */,
 				9B81C2B512A1ED8E00BB749D /* Images */,
 				9B81C27E12A1ECED00BB749D /* MyEvents-Info.plist */,
 				9B81C28012A1ECED00BB749D /* InfoPlist.strings */,
@@ -190,7 +235,7 @@
 		9B81C27412A1ECED00BB749D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B81C27312A1ECED00BB749D /* MyEvents.app */,
+				9B81C27312A1ECED00BB749D /* MyTickets.app */,
 				9B81C29D12A1ECEE00BB749D /* MyEventsTests.octest */,
 			);
 			name = Products;
@@ -232,7 +277,7 @@
 			);
 			name = MyEvents;
 			productName = MyEvents;
-			productReference = 9B81C27312A1ECED00BB749D /* MyEvents.app */;
+			productReference = 9B81C27312A1ECED00BB749D /* MyTickets.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9B81C29C12A1ECEE00BB749D /* MyEventsTests */ = {
@@ -292,6 +337,11 @@
 				9B72288B12A1F118004488C0 /* evblogo.png in Resources */,
 				9B72288E12A1F5D5004488C0 /* tixbg.png in Resources */,
 				9B6A848912C546BD002A63AB /* localtestdata.xml in Resources */,
+				97C841BF12E96CAE00E00DF5 /* TicketDetailViewController.xib in Resources */,
+				97C8427112E975D700E00DF5 /* error.png in Resources */,
+				97C843B212E99DB000E00DF5 /* TextEditCell.xib in Resources */,
+				97C843E612E9A2CC00E00DF5 /* Default.png in Resources */,
+				97C8445712E9A96F00E00DF5 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +384,10 @@
 				9B81C29412A1ECED00BB749D /* FlipsideViewController.m in Sources */,
 				9BF24D5312A1FBC600374EB2 /* EventListingTableViewController.m in Sources */,
 				9B6A847D12C542EA002A63AB /* MyEventsXMLParser.m in Sources */,
+				97C841BE12E96CAE00E00DF5 /* TicketDetailViewController.m in Sources */,
+				97C8437D12E9977D00E00DF5 /* GenLib.m in Sources */,
+				97C843B112E99DB000E00DF5 /* TextEditCell.m in Sources */,
+				97C843BC12E99E1700E00DF5 /* IBTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +478,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyEvents-Prefix.pch";
 				INFOPLIST_FILE = "MyEvents-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = MyTickets;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -437,6 +495,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyEvents-Prefix.pch";
 				INFOPLIST_FILE = "MyEvents-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

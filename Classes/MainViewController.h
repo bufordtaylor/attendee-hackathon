@@ -10,7 +10,7 @@
 
 #import <CoreData/CoreData.h>
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, UITextFieldDelegate> {
 
     NSManagedObjectContext *managedObjectContext;
 }

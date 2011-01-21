@@ -23,6 +23,7 @@
     MainViewController *mainViewController;
     State * state;
     MyEventsXMLParser * parser;
+	NSMutableData* responseData;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -32,6 +33,7 @@
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 @property (nonatomic, retain, readonly) State * state;
+@property (nonatomic, retain, readonly) NSMutableData* responseData;
 
 - (NSString *)applicationDocumentsDirectory;
 

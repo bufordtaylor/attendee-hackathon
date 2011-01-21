@@ -119,6 +119,19 @@
         else if ([elementName isEqualToString:@"eventName"]) {
             currentOrder.eventName = currentChars;
         }
+		else if ([elementName isEqualToString:@"first_name"]) {
+            currentAttendee.firstName = currentChars;
+        }
+		else if ([elementName isEqualToString:@"last_name"]) {
+            currentAttendee.lastName = currentChars;
+        }
+		else if ([elementName isEqualToString:@"startDate"]) {
+			NSDateFormatter* df = [[NSDateFormatter alloc] init];
+			[df setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+			currentOrder.startDate = [df dateFromString:currentChars];
+            //currentOrder.startDate = [df dateFromString:currentChars];
+			[df release];
+        }
         else if ([elementName isEqualToString:@"id"]) {
             currentOrder.id = currentChars;
             //BOOL alreadyHaveThisOrder = NO;
